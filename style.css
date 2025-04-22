@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  scroll-margin-top: 60px; /* Added from edited code */
+}
+
+#about {
+  margin-top: 60px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Added from edited code */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Added from edited code */
+}
+
+
+.project-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Added styles from edited code */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: white;
+}
