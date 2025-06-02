@@ -7,6 +7,9 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
+  /* 加入背景設定，請依照你夕陽照片的實際路徑調整 */
+  background: url('images/IMG_0032.JPEG') no-repeat center center fixed;
+  background-size: cover;
 }
 
 header {
@@ -73,7 +76,6 @@ section {
   transform: translateY(-5px); /* Added from edited code */
 }
 
-
 .project-card img {
   width: 100%;
   border-radius: 4px;
@@ -93,12 +95,7 @@ footer {
   }
 }
 
-/* Added styles from edited code */
-body {
-  font-family: 'Arial', sans-serif;
-}
-
-
+/* 其他補充部分 */
 .btn-outline-dark:hover {
   background-color: #343a40;
   color: white;
