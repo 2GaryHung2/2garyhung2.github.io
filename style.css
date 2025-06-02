@@ -7,13 +7,14 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background: url('images/IMG_0032.JPEG') no-repeat center center fixed;
+  /* 使用你的夕陽照片作為全站背景，調整 background-position 讓上方的太陽顯示 */
+  background: url('images/IMG_0032.JPEG') no-repeat center top fixed;
   background-size: cover;
 }
 
-/* 新增白色背景容器樣式 */
-.about-box {
-  background: rgba(255, 255, 255, 0.9); /* 可調整透明度 */
+/* 新增容器樣式，供 about 與 contact 區塊使用 */
+.content-box {
+  background: rgba(255, 255, 255, 0.9); /* 半透明白背景 */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
