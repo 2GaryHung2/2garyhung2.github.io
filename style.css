@@ -7,9 +7,17 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  /* 加入背景設定，請依照你夕陽照片的實際路徑調整 */
   background: url('images/IMG_0032.JPEG') no-repeat center center fixed;
   background-size: cover;
+}
+
+/* 新增白色背景容器樣式 */
+.about-box {
+  background: rgba(255, 255, 255, 0.9); /* 可調整透明度 */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
 
 header {
@@ -39,7 +47,7 @@ nav ul li a {
 section {
   padding: 4rem 2rem;
   min-height: 100vh;
-  scroll-margin-top: 60px; /* Added from edited code */
+  scroll-margin-top: 60px;
 }
 
 #about {
@@ -69,11 +77,11 @@ section {
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
-  transition: transform 0.3s ease; /* Added from edited code */
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px); /* Added from edited code */
+  transform: translateY(-5px);
 }
 
 .project-card img {
@@ -95,7 +103,6 @@ footer {
   }
 }
 
-/* 其他補充部分 */
 .btn-outline-dark:hover {
   background-color: #343a40;
   color: white;
